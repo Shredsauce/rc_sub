@@ -40,7 +40,7 @@ class PulseReader:
         self.name = name
         self.high_tick = None
         self.last = time.monotonic()
-        self.cb = pigpio.callback(pin, pigpio.EITHER_EDGE, self._cb)
+        self.cb = pi.callback(pin, pigpio.EITHER_EDGE, self._cb)
 
     def _cb(self, gpio, level, tick):
         if level == 1:

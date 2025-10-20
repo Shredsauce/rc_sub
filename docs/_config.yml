@@ -1,0 +1,11 @@
+
+title: RC Submarine Project
+description: A living engineering notebook for my RC submarine — electronics, code, mechanics, and build log.
+theme: jekyll-theme-cayman
+show_downloads: false
+google_analytics:
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+baseurl: /rcsub   # <-- replace with your repo name

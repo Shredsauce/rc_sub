@@ -1,0 +1,14 @@
+[Unit]
+Description=RC Sub Controls (rudders, etc)
+After=network-online.target pigpiod.service
+Requires=pigpiod.service
+Wants=network-online.target
+
+[Service]
+User=ninja
+WorkingDirectory=/home/ninja/rc_sub
+ExecStart=/home/ninja/rc_sub/.venv/bin/python -m raspi.src.controllers.main
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

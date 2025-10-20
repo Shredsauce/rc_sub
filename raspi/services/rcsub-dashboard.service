@@ -1,0 +1,13 @@
+[Unit]
+Description=RC Sub Dashboard
+After=network-online.target pigpiod.service
+Requires=pigpiod.service
+
+[Service]
+User=ninja
+WorkingDirectory=/home/ninja/rc_sub
+ExecStart=/home/ninja/rc_sub/.venv/bin/python raspi/rc_dashboard.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -35,11 +35,18 @@ This page is chronological. Add new entries to the **top** so the latest appears
 
 Mapped out controls:
 
-Right stick horizontal: CH1
-Right stick vertical: CH2
-Left stick vertical: CH3
-Back left spring toggle: CH4
-Gear toggle: CH5
-Left knob: CH6
-Right knob: CH7
+Right stick horizontal: CH1  
+Right stick vertical: CH2  
+Left stick vertical: CH3  
+Back left spring toggle: CH4  
+Gear toggle: CH5  
+Left knob: CH6  
+Right knob: CH7  
 
+I would have loved to have the ballast tank controls on the right knob (channel 7). Right next to the knob is the 2->6, 6->2 MIX switch. The switch has three states: Up, middle, and down. I would have liked to have it like this:  
+* MIX switch up: Only fore ballast affected  
+* MIX switch middle: Both ballasts affected  
+* MIX switch down: Only aft ballast affected  
+
+This is impossible set with the transmitter unfortunately. I *could* reroute the switch somehow but it doesn't seem worth it.
+I've settled on using the spring toggle in back (SNAP ROLL ON). I've disabled all other channels except for channel 4. By default, turning the ballast knob will affect both ballast tanks. But if the switch is pulled back, only one tank is affected. This tank is determined by the channel 5 switch (GEAR) 

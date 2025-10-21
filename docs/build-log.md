@@ -31,3 +31,15 @@ This page is chronological. Add new entries to the **top** so the latest appears
 **Notes:** Messy but functional; next rev improves labeling and strain relief.  
 **Lessons Learned:** Star-ground saves headaches. Keep wire lengths short to reduce jitter.  
 **Next Step:** Mount on a standoff rail inside the hull.
+
+
+Mapped out controls:
+
+Right stick horizontal: CH1
+Right stick vertical: CH2
+Left stick vertical: CH3
+Back left spring toggle: CH4
+Gear toggle: CH5
+Left knob: CH6
+Right knob: CH7
+
